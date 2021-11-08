@@ -1,0 +1,28 @@
+.bookCard {
+    border-radius: 2px;
+    margin-bottom: 10px;
+    background-color: white;
+    padding-left: 7px;
+}
+.bookCard:hover {
+    background-color: lightgray;
+    cursor: pointer;
+}
+ 
+.bookTitle {
+    font-size: 20px;
+    font-weight: bold;
+}
+.bookTitle:hover {
+    text-decoration: underline;
+}
+
+.authors {
+    display: flex;
+    flex-direction: row;
+    color: seagreen
+}
+.by {
+    color: black;
+    padding-right: 5px;
+}
